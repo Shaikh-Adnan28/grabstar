@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    width: 100%;
+    background-color: gold;
+    padding-top: 20px;
+    /* display: flex;
+    justify-content: center; */
+}
+.navdiv{
+    height: 100px;
+    width: 90%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left :55px;
+    margin-right: 60px;
+    border: 3px solid red;
+}
+.logo{
+font-size: larger;
+font-weight: 900;
+font-size: 40px;
+}
+
+.opening-hours{
+    font-size: 15px;
+    display: flex;
+    gap: 15px;
+
+}
+.fa-building{
+    font-size: 30px;
+    /* margin-right: 25px; */
+    height: 100%;
+}
+.logo3{
+    font-size: 15px;
+    display: flex;
+    gap: 15px;
+}
+.fa-phone{
+    font-size: 30px;
+    /* margin-right: 25px; */
+    height: 100%;
+}
+.logo4{
+    font-size: 15px;
+    display: flex;
+    gap: 15px;
+}
+.fa-envelope{
+    font-size: 30px;
+    /* margin-right: 25px; */
+    height: 100%;
+}
+.bot-div{
+    height: 70px;
+    background-color: black;
+    width: 90%;
+    margin-left: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 10px;
+    /* margin-right: 30px; */
+    
+}
+ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style: none;
+    margin-left: 15px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+li a:hover{
+    color: gold;
+}
+button{
+    margin-right: 15px;
+    padding: 5px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}

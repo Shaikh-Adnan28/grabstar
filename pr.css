@@ -1,0 +1,15 @@
+*{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    background-color: crimson;
+    padding-left: 15px;
+    padding-right: 15px;
+  
+}
+.navdiv{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
